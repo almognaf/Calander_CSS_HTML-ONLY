@@ -1,0 +1,248 @@
+body{
+  background: #ee3c48;
+  margin: 0.5rem 0.5rem;
+    padding: 4rem 2rem;
+}
+
+ul{
+  padding: 0;
+
+}
+h1{
+  font-size: 2rem;
+}
+a :hover{
+  background-color: #ee3c48;
+
+}
+button:hover{
+  background-color: #ee3c48;
+  color: #f9f9f9;
+}
+li{
+  padding: 0.5rem 0;
+  list-style: none;
+  text-align: left;
+}
+.date:hover{
+ color: #ee3c48;
+ font-weight: bold;
+ cursor: zoom-in;
+
+}
+
+.calendar{
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      box-shadow: 0rem 1rem 2rem ;
+      width: 55%;
+      height: auto;
+      border-radius: 1em;
+      background: white;
+      font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+
+
+.calendar-left{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  float: left;
+  background-color: #f9f9f9;
+  box-shadow: 1px 0px 0px #ececec;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+}
+
+.calendar-right{
+  width: 70%;
+  float: right;
+  background-color: #ffffff;
+  box-shadow: 1px 0px 0px #ececec;
+  border-top-right-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+.calendar-right h1{
+  display: inline-block;
+}
+
+.sidebar{
+    padding: 2rem 2.5rem;
+
+
+}
+
+.sidebar-littleheader{
+  font-size: .75rem;
+    color: #ee3c48;
+}
+
+.sidebar-list-header{
+  color: #ee3c48;
+  font-size: 1.2rem;
+}
+
+.sidebar-btn{
+    background: #ececec;
+    display: block;
+    padding: 0.5rem 0.2rem;
+    border-radius: 0.8rem;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 100%;
+    border-width: 0rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+.active{
+  color:  #ee3c48 !important;
+  cursor: grabbing !important;
+}
+
+.unactive{
+      font-style: normal !important;
+      font-weight: normal !important;
+      color: grey !important;
+      cursor: default !important;
+
+    }
+
+
+.italy{
+  font-style: oblique;
+  font-weight: normal;
+}
+.calendarnav{
+  display: inline-block;
+  float: right;
+  margin: 2.5rem auto;
+}
+.calendarnav button{
+  border: 0.06rem;
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem
+
+}
+.calendarnav button :hover{
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.calendar-row{
+  margin:  0rem 2rem;
+}
+.left-arrow-btn{
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+.right-arrow-btn{
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.daycell{
+    border: 0.06rem solid #ececec;
+    padding: 0.5rem 0.5rem;
+    min-height: 3.2em;
+    flex: 1 1 0;
+}
+.daycellhead{
+  flex: 1 1 0;
+}
+.day-name{
+  font-style: normal;
+
+}
+.weekendcell{
+  padding: 0.5rem 0.5rem;
+min-height: 3.2em;
+border: 0.06rem solid #ececec;
+flex: 1 1 0;
+background-color: #f9f9f9;
+}
+.calendar-right-topside{
+  padding: 1rem 2rem 0rem 2rem;
+}
+
+.calendar-right-topside-button{
+
+}
+
+.date{
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+}
+.event{
+  background-color: #ececec;
+      color: #999;
+      padding: 0.06rem 0.5rem;
+      font-size: 0.8rem;
+      border-radius: 1em;
+}
+
+.grid{
+  display: flex;
+  border-width: 0.06rem;
+  text-align: right;
+  flex-direction: row;
+    flex:0 0 auto;
+
+}
+
+.padding{
+  padding: 0 0rem;
+}
+.center{
+  margin:auto auto auto auto;
+  width: 100%;
+  padding: 2.2rem 0rem ;
+    justify-content: center;
+}
+.lastrow{
+  margin: 0rem 0rem 0rem 0rem;
+}
+
+@media screen and (max-width:1345px) {
+  .calendar {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        box-shadow: 0rem 1rem 2rem ;
+        width: 55%;
+        height: auto;
+        border-radius: 1em;
+        background: white;
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .calendar-left{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      font-weight: 300;
+      float: left;
+      background-color: #f9f9f9;
+      box-shadow: 1px 0px 0px #ececec;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+    }
+
+    .calendar-right{
+      width: 100%;
+      float: right;
+      background-color: #ffffff;
+      box-shadow: 1px 0px 0px #ececec;
+      border-bottom-left-radius: 1em;
+      border-bottom-right-radius: 1em;
+      border-top-right-radius: 0em;
+    }
+}
