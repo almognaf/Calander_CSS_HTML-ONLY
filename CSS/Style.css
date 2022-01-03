@@ -102,7 +102,7 @@ li{
 }
 .active{
   color:  #ee3c48 !important;
-  cursor: grabbing !important;
+  cursor: default !important;
 }
 
 .unactive{
