@@ -27,7 +27,7 @@ li{
 .date:hover{
  color: #ee3c48;
  font-weight: bold;
- cursor: zoom-in;
+ cursor: pointer;
 
 }
 
@@ -130,7 +130,6 @@ li{
 
 }
 .calendarnav button :hover{
-  font-size: 1.2rem;
   cursor: pointer;
 }
 .calendar-row{
@@ -152,13 +151,16 @@ li{
     min-height: 3.2em;
     flex: 1 1 0;
 }
+
 .daycellhead{
   flex: 1 1 0;
 }
+
 .day-name{
   font-style: normal;
 
 }
+
 .weekendcell{
   padding: 0.5rem 0.5rem;
 min-height: 3.2em;
@@ -166,12 +168,9 @@ border: 0.06rem solid #ececec;
 flex: 1 1 0;
 background-color: #f9f9f9;
 }
+
 .calendar-right-topside{
   padding: 1rem 2rem 0rem 2rem;
-}
-
-.calendar-right-topside-button{
-
 }
 
 .date{
@@ -180,6 +179,7 @@ background-color: #f9f9f9;
     font-weight: 600;
 
 }
+
 .event{
   background-color: #ececec;
       color: #999;
@@ -200,12 +200,14 @@ background-color: #f9f9f9;
 .padding{
   padding: 0 0rem;
 }
+
 .center{
   margin:auto auto auto auto;
   width: 100%;
   padding: 2.2rem 0rem ;
     justify-content: center;
 }
+
 .lastrow{
   margin: 0rem 0rem 0rem 0rem;
 }
